@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Prueba Técnica Netquest</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>HTML + JAVASCRIPT + CSS</h1>
+            <ul>
+                <li><a href="/blank.html">Blank</a></li>
+                <li><a href="/bola.html">Bola</a></li>
+                <li><a href="/propuestas.html">Propuestas</a></li>
+                <li><a href="/index.html">Index</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       
+       <section >
+            <h2>Primer propuesta</h2>
+            <div class="desplegable_container container">
+                <select name="select" class=" desplegable">
+                    <option value="0" disabled selected>Selecciona una opción</option>
+                    <option value="Buenos">Opción 1</option>
+                    <option value="días" >Opción 2</option>
+                    <option value="=)">Opción 3</option>
+                </select>
+            </div>
+       </section>
+       <section class="formulario container">
+            <h2>Segunda propuesta</h2>
+            <form action="/" enctype="multipart/form-data" id="form">
+                <fieldset>
+                    <legend>Información personal</legend>
+                    <label for="name">Nombre</label>
+                    <input placeholder="Ingresa aquí tu nombre" required type="text" name="name" id="name" minlength="3">
+                    <label for="mail">Correo</label>
+                    <input placeholder="Ingresa tu correo electrónico" required type="email" name="mail" id="mail">
+                    <label for="tel">Teléfono</label>
+                    <input placeholder="Ingresa tu teléfono en el formato solicitado" required autocomplete="mobile" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" name="tel" id="tel">
+                    <small>Formato: 54 351 333 3434</small>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensaje</legend>
+                    <label for="msg">Mensaje</label>
+                    <textarea id="msg" required name="msg" id="msg" cols="30" rows="10" minlength="50" maxlength="250"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+       </section>
+       <section class="contacto_popUp container">
+            <h2>Cuarta propuesta</h2>
+            <div class="button_container">
+                <p>Consulta nuestro contacto <span id="popup_button">aquí</span></p>
+            </div>
+       </section>
+    </main>
+    <footer>
+        <a href="https://www.linkedin.com/in/tony-hermann/" target="_blank">Antonio Alejo Serral Hermann</a>
+    </footer>
+    <script type="module" src="script/propuestas.js"></script>
+</body>
+</html>
