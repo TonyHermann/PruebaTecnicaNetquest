@@ -2,6 +2,34 @@
 # Prueba Técnica Netquest
 Prueba técnica para Global Scripter en Netquest.
 
+## Rutas
+### Para poder correr la primer prueba 
+
+(desde el directorio raiz del proyecto)
+```bash
+    cd script/primer_test
+    node primer_prueba.js
+```
+
+### Para correr los ejercicios del word
+
+(desde el directorio raiz del proyecto)
+```bash
+    cd script
+    node ejercicios.js
+```
+
+### Propuestas del word
+- [Propuestas](https://tonyhermann.github.io/PruebaTecnicaNetquest/propuestas.html)
+
+### Ejercicios HTML
+- [Slider](https://tonyhermann.github.io/PruebaTecnicaNetquest/index.html#slider)
+- [Estructura base de una página HTML](https://tonyhermann.github.io/PruebaTecnicaNetquest/blank.html)
+- [Canvas](https://tonyhermann.github.io/PruebaTecnicaNetquest/index.html#canvas)
+- [Video YouTube](https://tonyhermann.github.io/PruebaTecnicaNetquest/index.html#video)
+
+### Demás ejercicios
+Están disponibles en el archivo .word compartido por mail.
 ## Tech Stack
 
 **Client:** JS, CSS, HTML
@@ -22,13 +50,13 @@ Para instalar
     
 ## Features
 
-- Maqueta html en blanco (./blank.html)
-- Bola (./bola.html)
-- Propuestas (./propuestas.html)
+* Maqueta html en blanco (./blank.html)
+* Bola (./bola.html)
+* Propuestas (./propuestas.html)
     - Desplegable
     - Formulario
     - PopUp   
-- Index (./index.html)
+* Index (./index.html)
     - Triángulo (canvas)
     - Youtube Video embed
     - Slider

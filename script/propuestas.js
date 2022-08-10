@@ -153,8 +153,3 @@ let initForm = () => {
 };
 // Fin form
 
-// TODO: hacer modulos de js
-// TODO: Arreglar css de la página
-// TODO: Específicar el tema del test.js
-// TODO: Subir a GitHub
-// TODO: Hostear en GH Pages
