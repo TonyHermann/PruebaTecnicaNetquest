@@ -88,6 +88,8 @@ Para correr los tests, escribe el siguiente comando en el directorio raiz
 ## Appendix
 
 Decidí testear las propuestas con JestJS. 
+Por otro lado, decidí corregir el error que tuve en la primer prueba.
+No retorna un array, no se me ocurrió una manera sin buscar la solución en google para hacerlo, entonces lo hice como sé hacerlo, retornando un objeto. 
 
 ## Authors
 
