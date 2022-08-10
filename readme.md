@@ -15,9 +15,19 @@ Prueba técnica para Global Scripter en Netquest.
 
 (desde el directorio raiz del proyecto)
 ```bash
-    cd script
-    node ejercicios.js
+    cd script/ejercicios
 ```
+
+Para correr el script que te da calcula la edad de una persona:
+```bash
+    node getAge.js
+```
+
+Para correr el script que reordena un array de manera aleatoria:
+```bash
+    node randomOrder.js
+```
+
 
 ### Propuestas HTML + CSS + JSS
 - [Propuestas](https://tonyhermann.github.io/PruebaTecnicaNetquest/propuestas.html)
