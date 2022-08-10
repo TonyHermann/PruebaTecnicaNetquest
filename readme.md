@@ -19,8 +19,11 @@ Prueba técnica para Global Scripter en Netquest.
     node ejercicios.js
 ```
 
-### Propuestas del word
+### Propuestas HTML + CSS + JSS
 - [Propuestas](https://tonyhermann.github.io/PruebaTecnicaNetquest/propuestas.html)
+- [Primera](https://tonyhermann.github.io/PruebaTecnicaNetquest/propuestas.html#primera)
+- [Segunda](https://tonyhermann.github.io/PruebaTecnicaNetquest/propuestas.html#segunda)
+- [Cuarta](https://tonyhermann.github.io/PruebaTecnicaNetquest/propuestas.html#cuarta)
 
 ### Ejercicios HTML
 - [Slider](https://tonyhermann.github.io/PruebaTecnicaNetquest/index.html#slider)
