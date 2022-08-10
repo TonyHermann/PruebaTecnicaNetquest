@@ -1,0 +1,14 @@
+{
+  "name": "prueba_global_scripter",
+  "version": "1.0.0",
+  "description": "Prueba técnica para NetQuest",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Tony Hermann",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}

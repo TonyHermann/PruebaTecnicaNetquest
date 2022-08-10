@@ -19,7 +19,7 @@ let getAge = (dateOfBirth) => {
     // Acá consigo el día de hoy
     let today = new Date();
     // La fecha de nacimiento ingresada en un objeto Date
-    let birthDate = new Date(dateOfBirth);
+    let birthDate = dateOfBirth;
     // Calculo la edad restando el año actual menos el año de nacimiento
     let age = today.getFullYear() - birthDate.getFullYear();
 
@@ -30,6 +30,8 @@ let getAge = (dateOfBirth) => {
     return age;
 }
 
-console.log(getAge("01/12/2004"));
+console.log(getAge(new Date("01/12/2004")));
 
 console.log(randomOrder(arrayToOrder));
+
+module.exports = {getAge, randomOrder};

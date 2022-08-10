@@ -63,7 +63,6 @@ let observeButton = (button) => {
     width=500,height=500,top=${top},left=${left}`;
 
   button.addEventListener("click", () => {
-    console.log("hola");
     open("/popup.html", "test", params);
   });
 };
