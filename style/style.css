@@ -49,76 +49,8 @@ nav ul li a {
   color: #2dccd3;
 }
 
-.contenedor {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-}
-
-.bola {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: solid 1px red;
-  background: rgb(150, 244, 112);
-  background: linear-gradient(180deg, rgba(150, 244, 112, 1) 0%, rgba(244, 242, 63, 1) 100%);
-  content: "";
-}
-
 h4 {
   margin: 0;
-}
-
-.desplegable_container {
-  padding: 20px;
-  background-color: #2dccd3;
-  border-radius: 10px;
-  color: white;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  width: 300px;
-  height: 90px;
-  margin-bottom: 50px;
-}
-
-.desplegable {
-  width: 100%;
-  margin: 10px 0px 10px 0px;
-  padding: 10px 10px 10px 10px;
-  background-color: #f9fafb;
-  border-color: #c2c6cc;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contacto_popUp {
-  gap: 10px;
-}
-
-.button_container span {
-  font-weight: bold;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.contacto {
-  display: flex;
-
-  align-items: center;
-  color: #2dccd3;
-}
-
-.contacto img {
-  width: 25px;
-  filter: invert(92%) sepia(82%) saturate(6845%) hue-rotate(127deg) brightness(87%) contrast(87%);
 }
 
 form {
@@ -168,3 +100,73 @@ button:hover {
   color: white;
   transition: all 0.5s;
 }
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bola {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 1px red;
+  background: rgb(150, 244, 112);
+  background: linear-gradient(180deg, rgba(150, 244, 112, 1) 0%, rgba(244, 242, 63, 1) 100%);
+  content: "";
+}
+
+
+.desplegable_container {
+  padding: 20px;
+  background-color: #2dccd3;
+  border-radius: 10px;
+  color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 300px;
+  height: 90px;
+  margin-bottom: 50px;
+}
+
+.desplegable {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 10px 10px 10px;
+  background-color: #f9fafb;
+  border-color: #c2c6cc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contacto_popUp {
+  gap: 10px;
+}
+
+.button_container span {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  color: #2dccd3;
+}
+
+.contacto img {
+  width: 25px;
+  filter: invert(92%) sepia(82%) saturate(6845%) hue-rotate(127deg) brightness(87%) contrast(87%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
